@@ -1,0 +1,18 @@
+# UNDER CONSTRUCTION
+
+# powershell as admin
+# go to folder where pg_upgrade is installed
+# example: C:\Program Files\PostgreSQL\13\bin
+
+# login to postgres
+.\psql -U postgres
+
+# show where the data is
+# output example: E:/databases
+show data_directory;
+
+# quit postgres
+\q
+
+# powershell again
+.\pg_upgrade

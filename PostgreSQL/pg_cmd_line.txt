@@ -1,0 +1,3 @@
+-- login
+psql -U postgres
+
